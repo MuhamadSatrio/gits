@@ -8,9 +8,11 @@ Link dokumentasi Postman
 https://documenter.getpostman.com/view/23486750/2s8ZDSbkFW
 
 A. Golang soal nomor 1 dan 2.
+
 Hanya tinggal menjalankan "go run main.go" pada masing-masing folder.
 
 B. Node Js Express Nomor 3.
+
 Pada setiap CRUD buku dan get users perlu login terlebih dahulu. cara menjalan API adalah sebagai berikut :
 
   1. buat file .env dan masukkan data sebagai berikut diseusaikan data database mysql anda:
@@ -28,5 +30,6 @@ Pada setiap CRUD buku dan get users perlu login terlebih dahulu. cara menjalan A
   5. silahkan coba melalui postman sesuai link diatas.
 
 
-Setelah berjalan pertam-tama perlu register users dengan role author dan publisher agar nantinya dapat menambahkan buku, dikarenakan penmbahkan buku berdasarkan author dan publisher yang ada pada database. database disini menggunakan MYSQL dan table akan terbuat otomatis ketika menjalan API ini. Kemudian jika misalkan author dan publisher tidak ditemukan dikarenakan author dan publisher belum melakukan register maka tidak akan dapat menginputkan buku.
+
+Setelah berjalan pertama-tama perlu register users dengan role author dan publisher agar nantinya dapat menambahkan buku, dikarenakan penambahkan buku berdasarkan author dan publisher yang ada pada database. database disini menggunakan MYSQL dan table akan terbuat otomatis ketika menjalan API ini. Kemudian jika misalkan author dan publisher tidak ditemukan dikarenakan author dan publisher belum melakukan register maka tidak akan dapat menginputkan buku.
 
