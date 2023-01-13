@@ -4,24 +4,37 @@ Repository ini berisi hasil jawaban tes GITS.
 Ctt : database yang digunakan mysql
 
 
+
 Link dokumentasi Postman
 https://documenter.getpostman.com/view/23486750/2s8ZDSbkFW
+
+
+
 
 A. Golang soal nomor 1 dan 2.
 
 Hanya tinggal menjalankan "go run main.go" pada masing-masing folder.
+
+
 
 B. Node Js Express Nomor 3.
 
 Pada setiap CRUD buku dan get users perlu login terlebih dahulu. cara menjalan API adalah sebagai berikut :
 
   1. buat file .env dan masukkan data sebagai berikut diseusaikan data database mysql anda:
+
   ACCESS_TOKEN_SECRET = bf8fafiagmret983tung72bng922ngngmkm7ananvmssvafqrefre3f
+
   REFRESH_TOKEN_SECRET = famfianf3r34jif394f0f 39uf 9woufmou9234rn49nrf34w9fnnt
+
   USER = root
+
   PASSWORD = "tes123"
+
   HOST = localhost
+
   DATABASE = gits
+
   DIALECT = mysql
   
   2. jalankan "npm init"
